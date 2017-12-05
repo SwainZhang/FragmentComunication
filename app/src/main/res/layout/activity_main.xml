@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.emery.fragmentcomunication.MainActivity">
+
+  <!--  <fragment
+        android:name="com.example.emery.fragmentcomunication.BlankFragment"
+        android:tag="BlankFragment"
+        android:id="@+id/fragment_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>-->
+    <!--<fragment
+        android:name="com.example.emery.fragmentcomunication.FragmentNPWR"
+        android:tag="BlankFragment"
+        android:id="@+id/fragment_npwr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>-->
+  <fragment
+      android:name="com.example.emery.fragmentcomunication.FragmentWPNR"
+      android:tag="FragmentWPNR"
+      android:id="@+id/fragment_npwr"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=""/>
+</FrameLayout>
